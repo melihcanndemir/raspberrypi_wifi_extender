@@ -1,0 +1,12 @@
+# config.yaml
+default_ssid: "RaspberryPi4B"
+default_passphrase: "raspberrypi"
+default_interface: "wlan1"
+default_ip_address: "192.168.50.1/24"
+default_dhcp_start: "192.168.50.2"
+default_dhcp_end: "192.168.50.255"
+default_netmask: "255.255.255.0"
+default_channel: 9
+default_hw_mode: "g"
+default_ieee80211n: 1
+default_ieee80211ac: 1

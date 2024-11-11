@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiFi Extender Paneli</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #0056b3;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        ul li:last-child {
+            border-bottom: none;
+        }
+        a {
+            display: block;
+            text-align: center;
+            background-color: #0056b3;
+            color: #fff;
+            padding: 10px 0;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        a:hover {
+            background-color: #004494;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Wi-Fi Genişletici Durumu</h1>
+        <ul>
+            <li>Bağlı İstemciler: {{ status.connected_clients }}</li>
+            <li>Sinyal Gücü: {{ status.signal_strength }}</li>
+            <li>Ağ Adı: {{ status.ssid }}</li>
+            <li>Kanal: {{ status.channel }}</li>
+            <li>Güvenlik Protokolü: {{ status.security_protocol }}</li>
+            <li>Arayüz: {{ status.interface }}</li>
+        </ul>
+        <a href="/configure">Yapılandır</a>
+    </div>
+</body>
+</html>

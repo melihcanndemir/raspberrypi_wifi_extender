@@ -46,9 +46,4 @@ The script utilizes logging to record its actions and errors. Logs are typically
 Refer to the script source code (wifi_extender_tool2.py) for detailed function definitions and implementation.
 This README provides a basic structure. You can customize it further by adding:
 
-Authors and contact information
-License information
-Troubleshooting tips
-Screenshots or diagrams (optional)
-
 # raspberrypi wifi extender
