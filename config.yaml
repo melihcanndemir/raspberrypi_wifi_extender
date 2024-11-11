@@ -9,4 +9,8 @@ default_netmask: "255.255.255.0"
 default_channel: 9
 default_hw_mode: "g"
 default_ieee80211n: 1
+<<<<<<< HEAD
 default_ieee80211ac: 1
+=======
+default_ieee80211ac: 1
+>>>>>>> 105142bf438cc4e4a8ff9bfd8635d6b91c51ec7d
