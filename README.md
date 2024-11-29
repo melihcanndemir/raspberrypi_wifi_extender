@@ -38,8 +38,8 @@ The script presents a menu with the following options:
 
 # Notes:
 
-The script prompts for the WiFi password. Consider using environment variables or a separate configuration file for improved security in real-world deployments.
-Ensure your Raspberry Pi's WiFi adapter is configured to connect to your existing WiFi network before running the script.
+- The script prompts for the WiFi password. Consider using environment variables or a separate configuration file for improved security in real-world deployments.
+- Ensure your Raspberry Pi's WiFi adapter is configured to connect to your existing WiFi network before running the script.
 
 # Additional Information:
 
