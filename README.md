@@ -27,15 +27,15 @@ Usage:
 
 The script presents a menu with the following options:
 
-Setup WiFi Extender: Configure the extender with your desired settings.
-Revert Changes: Undo any modifications made by the script.
-Check Status: View the status of relevant services.
-Make Configuration Persistent (Optional): Add a script execution line to /etc/rc.local to automatically set up the extender on boot.
-Restart Services: Restart services involved in the WiFi extender functionality.
-Exit: Quit the script.
-Follow the on-screen prompts to enter the necessary details for your WiFi network and configuration.
+- Setup WiFi Extender: Configure the extender with your desired settings.
+- Revert Changes: Undo any modifications made by the script.
+- Check Status: View the status of relevant services.
+- Make Configuration Persistent (Optional): Add a script execution line to /etc/rc.local to automatically set up the extender on boot.
+- Restart Services: Restart services involved in the WiFi extender functionality.
+- Exit: Quit the script.
+- Follow the on-screen prompts to enter the necessary details for your WiFi network and configuration.
 
-Notes:
+# Notes:
 
 The script prompts for the WiFi password. Consider using environment variables or a separate configuration file for improved security in real-world deployments.
 Ensure your Raspberry Pi's WiFi adapter is configured to connect to your existing WiFi network before running the script.
